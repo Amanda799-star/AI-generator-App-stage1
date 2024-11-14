@@ -52,7 +52,21 @@ display: flex;
     font-weight: bold;
     color: #fff;
     text-align: center;
+    font-size: 16px;
     background-image: url("https://media1.tenor.com/m/zUwdOaQu1GIAAAAC/pink-hearts.gif");
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#coder{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(197, 26, 54);
+    font-weight: bold;
+
 }
