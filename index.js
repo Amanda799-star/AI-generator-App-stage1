@@ -2,7 +2,7 @@ function poemGenerator(event) {
   event.preventDefault();
   
   let userInputInstructions = document.querySelector("#input");
-  let context = `User instructions:generate a romantic poem about${userInputInstructions.value}please give the poem in a more simplified  manner  use the poem writing structure and remember to include <br/> when you meet a comma.Sign the poem with'SheCodes AI' and it should be in blueviolet color inside a <strong> element at the bottom of page and NOT at the beginning`;
+  let context = `User instructions:generate a romantic poem about${userInputInstructions.value}please give the poem in a more simplified  manner  use the poem writing structure and remember to include <br/> when you meet a comma.Sign the poem with'SheCodes AI' and it should be  inside a <strong> element at the bottom of page and NOT at the beginning. please include a <br/> before the signature`;
   let poemGen = document.querySelector("#poem");
   poemGen.innerHTML = `<div class="generating">⏳ Generating a love poem about ${userInputInstructions.value}</div>`;
   let prompt = "you are a romantic poem writer and love to share sweet poems about love,write me a 4 line romantic poem using the instructions below";

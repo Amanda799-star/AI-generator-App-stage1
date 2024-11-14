@@ -78,11 +78,13 @@ a{
 
 }
 
-@keyframes {
+@keyframes blink{
     50% {
     opacity: 0.0;
   }
+
 }
+
 .generating {
         animation: blink 1.5s step-start 0s infinite;
 }
