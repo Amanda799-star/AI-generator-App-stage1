@@ -33,6 +33,13 @@ display: flex;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 250px;
 }
+
+::placeholder{
+   font-size: 13px;
+
+}
+
+
 #submitButton{
     display: block;
     margin: auto;
@@ -69,4 +76,13 @@ a{
     color: rgb(197, 26, 54);
     font-weight: bold;
 
+}
+
+@keyframes {
+    50% {
+    opacity: 0.0;
+  }
+}
+.generating {
+        animation: blink 1.5s step-start 0s infinite;
 }
