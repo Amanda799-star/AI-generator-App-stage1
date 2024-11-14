@@ -54,4 +54,5 @@ display: flex;
     text-align: center;
     background-image: url("https://media1.tenor.com/m/zUwdOaQu1GIAAAAC/pink-hearts.gif");
     background-position: center;
+    background-repeat: no-repeat;
 }
